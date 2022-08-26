@@ -18,12 +18,13 @@
   <style>
     label {
       font-size: 1.2rem;
+      margin: 0;
     }
     input {
     font-family: inherit;
-    font-size: inherit;
+    font-size: 1.3rem;
     padding: 0.5em 1em;
-    margin: 0.8rem;
+    margin: 0.4rem;
     color: black;
     background-color: rgb(245, 245, 245);
     border-radius: 0.5em;

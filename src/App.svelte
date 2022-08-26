@@ -15,26 +15,24 @@ import NAVITEM from './lib/NavItem.svelte';
  </NAV>
 
 
- <div id="bmiCalc">
-  <div style='height: 4rem;'></div>
-
- </div>
   <img src={logo} alt="Svelte Logo" />
   <div class="grid-container">
     <div class="grid-item">
       <h1>BMI Calculator</h1>
       <Bmi />
-      <div id="bmr">
+      
+   
     </div>
-    </div>
+    
     <div class="grid-item">
+      <div id="bmr">  
       <h1>BMR Calculator</h1>
       <Bmr/>
       <div style='height: 5rem;'>
       </div>
 
     </div>
-   
+  </div>
   </div>
 
   
@@ -57,7 +55,8 @@ import NAVITEM from './lib/NavItem.svelte';
   .grid-container {
   display: grid;
   grid-template-columns: auto auto;
-  padding: 10px;
+  padding-left: 22%;
+  padding-right: 22%;
 }
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
@@ -78,19 +77,19 @@ import NAVITEM from './lib/NavItem.svelte';
   }
 
   img {
-    height: 25%;
-    width:  25%;
+    height: 20%;
+    width:  20%;
   }
 
   h1 {
     color: #f9df00;
     text-shadow: #faab00 1px 1px 1px;
     text-transform: uppercase;
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     font-weight: 100;
     line-height: 1.1;
     margin: 2rem auto;
-    max-width: 40%;
+    max-width: 100%;
   }
   h3{
     color: #f9df00;
